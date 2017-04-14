@@ -5,46 +5,45 @@
     </head>
     <body>
         <form action="madeupURL.html" method="POST" 
-        style="border-style: solid;" "margin: 25px;">
-        <div>
-          First Name: <input type="text" name="firstName"/><br/>
-          <br/>
-          Last Name: <input type="text" name="lastName"/><br/>
-          <br/>
-         </div>
-          Email: <input type="text" name="email"/><br/>
-          <br/>
-
-          Type of License:<br/>
-          <br/>
-         <div>
+         style="width: 600px; height: 500px; border: solid">
+        <br>
+        <div align="justify">
+          <b>First Name: </b> <input type="text" name="firstName"/><br>
+          <br>
+          <b>Last Name: </b><input type="text" name="lastName"/><br>
+          <br>
+          <b>Email: </b><input type="text" name="email"/><br>
+          <br>
+        </div>
+        <div align="justify">
+         <b>Type of License: </b><br>
+          <br>
+        </div>
+         <div align="justify">
             <input type="radio" name="select1" value="Business" checked>Business
-            <input type="radio" name="select2" value="Personal">Personal<br/>
-            <br/>
+            <input type="radio" name="select2" value="Personal">Personal<br>
+            <br>
          </div>
-        <div>
-          Reason: <select name="options"><br/>
+        <div align="justify">
+          <b>Reason: </b><select name="options"><br>
               <option value="value1" checked>Options</option>
               <option value="value2">Select a Reason</option>
               <option value="value3">Software Support</option>
               <option value="value4">Hardware Support</option>
               <option value="value5">Information Request</option>
               </select><br/>
-              <br/>
+              <br>
               </div>
-        <div>
-        Additional Information: 
-         <textarea name="additionalinfo"></textarea><br/>
-         <br/>
+        <div align="justify">
+        <b>Additional Information: </b> 
+         <textarea name="additionalinfo"></textarea><br>
+         <br>
          </div>
-         <div>
-         <input type="checkbox" name="readterns">I have read the terms of service.<br/>
-         <br/>
+         <div align="center">
+          <input type="checkbox" name="readterns"><b>I have read the terms of service.</b><br>
+          <br>
+          <input type="submit" value="Send Request"/>
          </div>
-         <div>
-         <input type="submit" value="Send Request"/>
-         </div>
-
         </form>
     </body>
 </html>
