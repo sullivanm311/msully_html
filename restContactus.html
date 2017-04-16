@@ -4,11 +4,47 @@
      <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css"/>
- 
- <title>Contact Us</title>
-</head>
 
-<body>
+<style>
+    
+#div1, #div2, #div3, div6, div7 { 
+        width: 500px;
+        padding:12px 25px;
+        margin: 10px 300px;
+}
+
+input {
+        box-sizing: border-box;
+        border-radius: 4px;
+}
+
+div4 { 
+        width: 500px;
+        padding: 12px 25px;
+        margin: 10px 0px;    
+}
+
+div5 {
+        width: 500px;
+        padding: 12px 25px;
+        margin: 10px 0px;
+}
+
+input[type=submit] {
+    
+    width: 50%;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+    
+ </style>
+
+ <title>Contact Us</title>
+  </head>
+
+ <body>
     <header>Contact Us</header>
       <h1>The Peanut Butter and Jelly</h1>
  <nav>
@@ -21,45 +57,50 @@
 <br>
 <br>
 <form action="somerrandomeurl.html" method="POST">
-        <br>
-        <div align="center">
-          <b>Name:</b><input type="text" name="name"/><br>
-          <br>
-          <b>Email:</b><input type="text" name="email"/><br>
-          <br>
-          <b>Phone:</b><input type="text" name="phone"/><br>
-          <br>
+        
+        <div id= "div1">
+          <b>Name:</b><input type="text" name="name"/>
         </div>
-        <div align="center">
-             <b>Reason for Inquiry: </b><select name="reasons"><br>
+        <div id= "div2">
+          <b>Email:</b><input type="text" name="email"/>
+        </div>
+        <div id="div3">
+          <b>Phone:</b><input type="text" name="phone"/>
+          <div>
+              <br>
+        <div id="div4">
+            <b>Reason for Inquiry: 
+             <select name="reasons">
               <option value="reason1" checked>Catering</option>
               <option value="reason2">Private Party</option>
               <option value="reason3">Feedback</option>
               <option value="reason4">Other</option>
-              </select><br>
-              <br>
-              </div>
-              <div align="center">
-        <b>Additional Information:</b> 
-         <textarea name="additionalinfo"></textarea><br>
-         <br>
-         </div>
-         <div align="center">
-             <b>Have you been to the restaurant before?</b>
-            <input type="radio" name="select1" value="no">No
-            <input type="radio" name="select2" value="yes">Yes<br>
+              </select>
+            </div>
             <br>
+        <div id="div5">
+        <b>Additional Information:</b>
+        <textarea name="additionalinfo"></textarea>
+       </div>
+        
+         <div id= "div6">
+            <b>Have you been to the restaurant before?</b>
+            <input type="radio" name="select1" value="no">No
+            <input type="radio" name="select2" value="yes">Yes
          </div>
-         <div align="center">
+         <br>
+        <div id="div7">
             <b>Best days to contact you:</b>
              <input type="checkbox" name="day1"><b>M</b>
              <input type="checkbox" name="day2"><b>T</b>
              <input type="checkbox" name="day3"><b>W</b>
              <input type="checkbox" name="day4"><b>Th</b>
              <input type="checkbox" name="day5"><b>F</b>
-              </input><br/>
-            <br>
-          <center><input type="submit" value="Send Request"/><center>
+         </div>
+         <br>
+            <div id= "div8">
+          <input type="submit" value="Send Request"/>
+            </div>
         </form>
 <br>
 <br>
